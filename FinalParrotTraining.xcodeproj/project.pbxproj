@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		2DD63DE726C459FD0084E9F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63DE626C459FD0084E9F2 /* AppDelegate.swift */; };
 		2DD63DE926C459FD0084E9F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63DE826C459FD0084E9F2 /* SceneDelegate.swift */; };
-		2DD63DEB26C459FD0084E9F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63DEA26C459FD0084E9F2 /* ViewController.swift */; };
 		2DD63DEE26C459FD0084E9F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD63DEC26C459FD0084E9F2 /* Main.storyboard */; };
 		2DD63DF126C459FD0084E9F2 /* FinalParrotTraining.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63DEF26C459FD0084E9F2 /* FinalParrotTraining.xcdatamodeld */; };
 		2DD63DF326C459FF0084E9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD63DF226C459FF0084E9F2 /* Assets.xcassets */; };
 		2DD63DF626C459FF0084E9F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD63DF426C459FF0084E9F2 /* LaunchScreen.storyboard */; };
+		2DD63E0026C4773B0084E9F2 /* ParrotEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63DFF26C4773B0084E9F2 /* ParrotEntryTableViewController.swift */; };
+		2DD63E0226C477B90084E9F2 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63E0126C477B90084E9F2 /* EntryViewController.swift */; };
+		2DD63E0926C49AB30084E9F2 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63E0726C49AB30084E9F2 /* Entry+CoreDataClass.swift */; };
+		2DD63E0A26C49AB30084E9F2 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63E0826C49AB30084E9F2 /* Entry+CoreDataProperties.swift */; };
+		2DD63E0C26C57FFE0084E9F2 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63E0B26C57FFE0084E9F2 /* EntryTableViewCell.swift */; };
+		2DD63E0E26C588D10084E9F2 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD63E0D26C588D10084E9F2 /* ClickerViewController.swift */; };
+		2DD63E1126C593530084E9F2 /* clickersound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DD63E1026C593530084E9F2 /* clickersound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DD63DE326C459FD0084E9F2 /* FinalParrotTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalParrotTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD63DE626C459FD0084E9F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD63DE826C459FD0084E9F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DD63DEA26C459FD0084E9F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DD63DED26C459FD0084E9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD63DF026C459FD0084E9F2 /* FinalParrotTraining.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalParrotTraining.xcdatamodel; sourceTree = "<group>"; };
 		2DD63DF226C459FF0084E9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD63DF526C459FF0084E9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD63DF726C459FF0084E9F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD63DFF26C4773B0084E9F2 /* ParrotEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotEntryTableViewController.swift; sourceTree = "<group>"; };
+		2DD63E0126C477B90084E9F2 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		2DD63E0726C49AB30084E9F2 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2DD63E0826C49AB30084E9F2 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2DD63E0B26C57FFE0084E9F2 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		2DD63E0D26C588D10084E9F2 /* ClickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
+		2DD63E1026C593530084E9F2 /* clickersound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickersound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,9 @@
 		2DD63DDA26C459FD0084E9F2 = {
 			isa = PBXGroup;
 			children = (
+				2DD63E0F26C58F530084E9F2 /* sound */,
+				2DD63E0726C49AB30084E9F2 /* Entry+CoreDataClass.swift */,
+				2DD63E0826C49AB30084E9F2 /* Entry+CoreDataProperties.swift */,
 				2DD63DE526C459FD0084E9F2 /* FinalParrotTraining */,
 				2DD63DE426C459FD0084E9F2 /* Products */,
 			);
@@ -60,14 +75,25 @@
 			children = (
 				2DD63DE626C459FD0084E9F2 /* AppDelegate.swift */,
 				2DD63DE826C459FD0084E9F2 /* SceneDelegate.swift */,
-				2DD63DEA26C459FD0084E9F2 /* ViewController.swift */,
 				2DD63DEC26C459FD0084E9F2 /* Main.storyboard */,
+				2DD63E0D26C588D10084E9F2 /* ClickerViewController.swift */,
+				2DD63E0126C477B90084E9F2 /* EntryViewController.swift */,
+				2DD63DFF26C4773B0084E9F2 /* ParrotEntryTableViewController.swift */,
+				2DD63E0B26C57FFE0084E9F2 /* EntryTableViewCell.swift */,
 				2DD63DF226C459FF0084E9F2 /* Assets.xcassets */,
 				2DD63DF426C459FF0084E9F2 /* LaunchScreen.storyboard */,
 				2DD63DF726C459FF0084E9F2 /* Info.plist */,
 				2DD63DEF26C459FD0084E9F2 /* FinalParrotTraining.xcdatamodeld */,
 			);
 			path = FinalParrotTraining;
+			sourceTree = "<group>";
+		};
+		2DD63E0F26C58F530084E9F2 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				2DD63E1026C593530084E9F2 /* clickersound.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD63E1126C593530084E9F2 /* clickersound.mp3 in Resources */,
 				2DD63DF626C459FF0084E9F2 /* LaunchScreen.storyboard in Resources */,
 				2DD63DF326C459FF0084E9F2 /* Assets.xcassets in Resources */,
 				2DD63DEE26C459FD0084E9F2 /* Main.storyboard in Resources */,
@@ -140,10 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD63E0C26C57FFE0084E9F2 /* EntryTableViewCell.swift in Sources */,
+				2DD63E0E26C588D10084E9F2 /* ClickerViewController.swift in Sources */,
 				2DD63DF126C459FD0084E9F2 /* FinalParrotTraining.xcdatamodeld in Sources */,
-				2DD63DEB26C459FD0084E9F2 /* ViewController.swift in Sources */,
+				2DD63E0926C49AB30084E9F2 /* Entry+CoreDataClass.swift in Sources */,
 				2DD63DE726C459FD0084E9F2 /* AppDelegate.swift in Sources */,
 				2DD63DE926C459FD0084E9F2 /* SceneDelegate.swift in Sources */,
+				2DD63E0026C4773B0084E9F2 /* ParrotEntryTableViewController.swift in Sources */,
+				2DD63E0A26C49AB30084E9F2 /* Entry+CoreDataProperties.swift in Sources */,
+				2DD63E0226C477B90084E9F2 /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D9KHW2K37;
 				INFOPLIST_FILE = FinalParrotTraining/Info.plist;
@@ -297,10 +330,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.FinalParrotTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = javier.perez.parrottrain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D9KHW2K37;
 				INFOPLIST_FILE = FinalParrotTraining/Info.plist;
@@ -316,10 +351,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.FinalParrotTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = javier.perez.parrottrain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
